@@ -45,7 +45,7 @@ namespace ConsoleApp1
 
             // Console.Write gibt einen Text aus und ermöglicht, nicht so wie .WriteLine, dass man noch in der Zeile eine Eingabe tätigen kann.
 
-            Console.Write("Geben Sie eine Zahl ein: ");
+            Console.Write("Geben Sie eine Zahl zwischen 1 & 100 ein: ");
 
             eingabe[0] = Convert.ToInt32(Console.ReadLine());
 
@@ -65,11 +65,10 @@ namespace ConsoleApp1
                 Console.WriteLine("\nIhre Eingabe lautete: {0}\n", eingabe[0]);
 
                 Console.WriteLine("\t\tWarnung: \n\t\tDezimalzahlen könnten das Programm zum Absturz bringen!\n");
-                Console.WriteLine("\nMoechten Sie das Programm beenden?\n");
+                Console.WriteLine("\nMöchten Sie das Programm beenden?\n");
                 Console.WriteLine("\n0.Ja(fürs beenden des Programmes)\n1.Nein(fürs weiterführen des Programmes)");
 
                 Console.Write("\nGeben Sie eine der oben genannten Werte ein: ");
-
                 eingabe[1] = Convert.ToInt32(Console.ReadLine());
 
                 // Typische Switch-Case anweisung. Sollte man wie die if-schleife schon aus vorheringen Sprachen wie C oder C++ kennen.
@@ -79,7 +78,7 @@ namespace ConsoleApp1
 
                     case 0:
 
-                        Console.WriteLine("\nDas Programm wird nun beendent!\n");
+                        Console.WriteLine("\nDas Programm wird nun beendet!\n");
 
                         break;
 
