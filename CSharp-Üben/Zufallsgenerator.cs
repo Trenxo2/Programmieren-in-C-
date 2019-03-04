@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Uebungen
 {
-    class Programme
+    class Zufallsgenerator
     {
 
         // Konfiguration
@@ -16,7 +16,7 @@ namespace Uebungen
 
         // Konsturktor
 
-        public Programme(int _x, int _y)
+        public Zufallsgenerator(int _x, int _y)
         {
 
             x = _x;
@@ -28,14 +28,14 @@ namespace Uebungen
 
         }
 
-        public static int getGenerierteZahl()
+        private static int getGenerierteZahl()
         {
-            Console.WriteLine("\n Die Zufällig Generierte Zahl lautet: {0}", generiertezahl);
+            Console.WriteLine("\nDie Zufällig Generierte Zahl lautet: {0}", generiertezahl);
 
             return generiertezahl;
         }
 
-        public static void Zufallsgenerator()
+        public static void random()
         {
 
             int[] x = new int[3];
@@ -52,7 +52,7 @@ namespace Uebungen
             Console.Write("\nGeben Sie die 2. Zahl ein: ");
             x[1] = Convert.ToInt32(Console.ReadLine());
 
-            Programme genZahl = new Programme(x[0], x[1]);
+            Zufallsgenerator genZahl = new Zufallsgenerator(x[0], x[1]);
 
             Console.Clear();
 
