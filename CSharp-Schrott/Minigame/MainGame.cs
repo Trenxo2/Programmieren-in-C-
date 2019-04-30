@@ -68,8 +68,11 @@ namespace Weiterbilden.Aufgaben_Privat.Minigame
 
             do
             {
+
                 Generator();
                 x[2]++;
+
+                Console.WriteLine("\n\t\tEingabe");
 
                 Console.WriteLine("\n1.Stein\n2.Papier\n3.Schere\n4.Echse\n5.Spock");
                 Console.Write("Ihre Eingabe: ");

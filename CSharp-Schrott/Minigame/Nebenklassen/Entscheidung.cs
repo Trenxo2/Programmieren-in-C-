@@ -223,6 +223,7 @@ namespace Weiterbilden.Aufgaben_Privat.Minigame.Nebenklassen
                 Console.WriteLine("\nUnentschieden! Diese Runde gewinnt niemand!");
             }
 
+            Console.WriteLine("\n-------------------------------------------------");
 
         }
     }
