@@ -11,6 +11,7 @@ namespace Weiterbilden.Aufgaben_Privat.Minigame.Nebenklassen
 {
     class Entscheidung
     {
+        // Just tells you, what you picked
         public static void Auswahl(int y)
         {
 
@@ -57,7 +58,8 @@ namespace Weiterbilden.Aufgaben_Privat.Minigame.Nebenklassen
                     break;
             }
         }
-
+        
+        //Converts the generated number in the maingame class into a string and then returns it.
         public static void ComHand(int y)
         {
 
@@ -107,7 +109,7 @@ namespace Weiterbilden.Aufgaben_Privat.Minigame.Nebenklassen
             }
 
         }
-
+        //Pretty simple, just chooses the winner(a lot of if-else trash)
         public static void ChooseWinner(int y, int z)
         {
 
