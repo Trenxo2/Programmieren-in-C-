@@ -27,7 +27,7 @@ namespace Weiterbilden.Aufgaben_Privat.Minigame
             z = x;
         }
         
-        // Generates a random number for Computer Oponent that will be later used for some more steps, like setting the descision and the output
+        // Generates a random number for Computer Oponent that will be later used for some more steps, like setting the descision and setting the output
         
         private static void Generator()
         {
