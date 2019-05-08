@@ -10,7 +10,9 @@ namespace Weiterbilden.Aufgaben_Privat.Minigame
 
         static int y;
         static string z;
-
+        
+        // Constructor, that converts the generated number to a computer descision
+        
         public MainGame(int x)
         {
             y = x;
@@ -18,12 +20,15 @@ namespace Weiterbilden.Aufgaben_Privat.Minigame
             Entscheidung.ComHand(y);
 
         }
-
+        // Construcotr, that converts the generated number to a small piece of string example: Stone
+        
         public MainGame(string x)
         {
             z = x;
         }
-
+        
+        // Generates a random number for Computer Oponent that will be later used for some more steps, like setting the descision and the output
+        
         private static void Generator()
         {
             int xx = 0;
@@ -46,7 +51,9 @@ namespace Weiterbilden.Aufgaben_Privat.Minigame
             MainGame ComNumber = new MainGame(xx);
 
         }
-
+        
+        // Sets the value of the generated Number as the Computer Hand 
+        
         public static void SetCOMHand(string x)
         {
 
