@@ -7,17 +7,17 @@ namespace F_Folge
 
         private static void Calculation(int x)
         {
-            int erste = 0, zweite = 1, erg = 0;
+            int Zahl1 = 0, Zahl2 = 1, erg = 0;
 
             for (int i = 1; i <= x; i++)
             {
                 Console.WriteLine("{0}. Fibonacci Zahl: {1}\n", i, erg);
 
-                erste += 1;
-                zweite += 1;
+                Zahl1 += 1;
+                Zahl2 += 1;
 
-                erste = zweite;
-                zweite = erg;
+                Zahl1 = Zahl2;
+                Zahl2 = erg;
                 
                 erg = erste + zweite - 1;
             }
