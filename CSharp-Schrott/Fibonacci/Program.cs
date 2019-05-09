@@ -19,7 +19,7 @@ namespace F_Folge
                 Zahl1 = Zahl2;
                 Zahl2 = erg;
                 
-                erg = erste + zweite - 1;
+                erg = Zahl1 + Zahl2 - 1;
             }
         }
 
