@@ -1,0 +1,11 @@
+C:\Users\Nik\source\repos\Programmieren - CSharp\F-Folge\bin\Release\netcoreapp2.1\F-Folge.deps.json
+C:\Users\Nik\source\repos\Programmieren - CSharp\F-Folge\bin\Release\netcoreapp2.1\F-Folge.runtimeconfig.json
+C:\Users\Nik\source\repos\Programmieren - CSharp\F-Folge\bin\Release\netcoreapp2.1\F-Folge.runtimeconfig.dev.json
+C:\Users\Nik\source\repos\Programmieren - CSharp\F-Folge\bin\Release\netcoreapp2.1\F-Folge.dll
+C:\Users\Nik\source\repos\Programmieren - CSharp\F-Folge\bin\Release\netcoreapp2.1\F-Folge.pdb
+C:\Users\Nik\source\repos\Programmieren - CSharp\F-Folge\obj\Release\netcoreapp2.1\F-Folge.csproj.CoreCompileInputs.cache
+C:\Users\Nik\source\repos\Programmieren - CSharp\F-Folge\obj\Release\netcoreapp2.1\F-Folge.AssemblyInfoInputs.cache
+C:\Users\Nik\source\repos\Programmieren - CSharp\F-Folge\obj\Release\netcoreapp2.1\F-Folge.AssemblyInfo.cs
+C:\Users\Nik\source\repos\Programmieren - CSharp\F-Folge\obj\Release\netcoreapp2.1\F-Folge.dll
+C:\Users\Nik\source\repos\Programmieren - CSharp\F-Folge\obj\Release\netcoreapp2.1\F-Folge.pdb
+C:\Users\Nik\source\repos\Programmieren - CSharp\F-Folge\obj\Release\netcoreapp2.1\F-Folge.csprojAssemblyReference.cache
